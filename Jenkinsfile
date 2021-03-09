@@ -6,5 +6,10 @@ pipeline{
         echo "hello"
       }
     }
+    stage('ne'){
+      steps{
+        echo "newesr"
+      }
+    }
   }
 }
